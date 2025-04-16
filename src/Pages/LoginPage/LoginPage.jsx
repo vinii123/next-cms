@@ -5,7 +5,7 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 
 const LoginPage = () => {
   return (
-    <div className="flex" id="signInButton">
+    <div className="flex justify-self-center  h-[100vh] items-center" id="signInButton">
       <GoogleOAuthProvider clientId={'198568962451-k5bh2tbken5mjum76bftq377fpcmqre3.apps.googleusercontent.com'} children={''}>
         <LoginButton />
       </GoogleOAuthProvider>
